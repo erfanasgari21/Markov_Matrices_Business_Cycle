@@ -237,17 +237,23 @@ Given the set of eigenvalues $`\{\lambda_1, \ldots, \lambda_n \}`$ and eigenvect
 #### Eigenpairs for $`A - \mu I`$
 
 Each eigenvector $`v_i`$ satisfies the following equation:
+
 $$
 A v_i = \lambda_i v_i
 $$
+
 Subtracting $`\mu v_i`$ from both sides:
+
 $$
 A v_i - \mu v_i = \lambda_i v_i - \mu v_i
 $$
+
 Factoring gives:
+
 $$
 \left(A - \mu I \right)v_i = \left(\lambda_i - \mu \right)v_i
 $$
+
 Thus, the matrix $`A - \mu I`$ has the same eigenvectors $`\{v_i\} `$, but its eigenvalues are $` \{\lambda_i - \mu\} `$.
 
 #### Eigenpairs for $`A^{-1}`$
@@ -291,7 +297,7 @@ To find all eigenpairs, not just the one closest to a shift value, you can use a
 
 2. **Deflation:**
 
-   After finding an eigenpair, deflate the matrix $ A $ to remove the effect of the found eigenpair and repeat the process on the reduced matrix. This technique involves subtracting the outer product of the found eigenvector from $ A $ and solving the reduced system.
+   After finding an eigenpair, deflate the matrix $A$ to remove the effect of the found eigenpair and repeat the process on the reduced matrix. This technique involves subtracting the outer product of the found eigenvector from $A$ and solving the reduced system.
 
 ```python
 import numpy as np
