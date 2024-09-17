@@ -505,11 +505,12 @@ Another definition of the steady-state distribution is that it does not change o
 $$
 p_{t+1} = Ap_t = p_t 
 $$
+
 $$
 (A-I)p_t=0
 $$
 
-It can be observed that $ A - I $ has a determinant of zero because 1 is an eigenvalue of any Markov matrix. Consequently, this matrix is not invertible, which implies that the system of equations does not have a unique solution.
+It can be observed that $` A - I `$ has a determinant of zero because 1 is an eigenvalue of any Markov matrix. Consequently, this matrix is not invertible, which implies that the system of equations does not have a unique solution.
 
 #### Adding a Constraint
 What assumption about the sum of the elements in $` p_{ss} `$ was missing in the previous formulation? The sum of the elements in $` p_{ss} `$ is constant and equals 1. By adding this condition to the system of equations, the solution can be obtained using the pseudo-inverse method:
