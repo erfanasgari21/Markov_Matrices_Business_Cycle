@@ -488,10 +488,10 @@ The steady-state distribution is independent of the initial state distribution. 
 In a Markov chain, as time progresses, the influence of the initial state distribution diminishes. The chain will converge to the steady-state distribution, which is a stationary distribution that satisfies:
 
 $$
-\pi = \pi P
+p = Ap
 $$
 
-where $` \pi `$ is the steady-state distribution and $ P $ is the transition matrix. This equation implies that once the chain reaches the steady-state, the distribution over states does not change with further transitions.
+This equation implies that once the chain reaches the steady-state, the distribution over states does not change with further transitions.
 
 #### Long-Term Behavior
 The steady-state distribution represents the long-term equilibrium of the Markov chain. For any initial state, as the number of transitions increases, the probability of being in each state converges to the steady-state probabilities. This convergence is independent of the initial state because the steady-state distribution is defined by the transition matrix alone.
