@@ -48,7 +48,15 @@ $$
 Rewriting the relation for $p_{t+1}$ in terms of a matrix multiplication:
 
 $$
-\left[\begin{matrix}c_{t+1}\\v_{t+1}\\\end{matrix}\right]=\left[\begin{matrix}0.95&0.2\\0.05&0.8\\\end{matrix}\right]\left[\begin{matrix}c_t\\v_t\\\end{matrix}\right]
+\left(
+\begin{matrix}c_{t+1}\\\v_{t+1}\\end{matrix}
+\right)=
+\left[
+\begin{matrix}0.95&0.2\\\0.05&0.8\\end{matrix}
+\right]
+\left(
+\begin{matrix}c_t\\\v_t\\end{matrix}
+\right)
 $$
 
 $$
@@ -381,16 +389,27 @@ A = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-Finding the eigenvalues and eigenvectors of this Markov matrix and then normalizing the eigenvectors so they become probability vectors:
+Finding the eigenvalues and eigenvectors of this Markov matrix and then normalizing the first eigenvector so they become probability vectors:
 
 $$
-\lambda_1=1.000,\ v_1=\left[\begin{matrix}0.1165\\0.7687\\0.1148\\\end{matrix}\right]\ 
+\lambda_1=1.000, v_1=
+\left[
+\begin{matrix}0.1165\\\0.7687\\\0.1148\\end{matrix}
+\right] 
 $$
+
 $$
-\lambda_2=0.435,\ v_2=\left[\begin{matrix}0.7875\\-0.5803\\-0.2071\\\end{matrix}\right]\
+\lambda_2=0.435, v_2=
+\left[
+\begin{matrix}0.7875 \\\ -0.5803 \\\ -0.2071 \\end{matrix}
+\right]
 $$
+
 $$
-\lambda_3=0.435,\ v_3=\left[\begin{matrix}0.0917\\-0.7484\\0.6567\\\end{matrix}\right]
+\lambda_3=0.435, v_3=
+\left[
+\begin{matrix} 0.0917 \\\ -0.7484 \\\ 0.6567 \\end{matrix}
+\right]
 $$
 
 ### Monte Carlo Estimation
@@ -503,4 +522,4 @@ A - I \\
 0 \\
 1
 \end{matrix}\right]
-$$"# Markov_Matrices_Business_Cycle" 
+$$
