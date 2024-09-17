@@ -333,9 +333,9 @@ The **Monte Carlo Estimation** method is a powerful tool for approximating value
 
 By repeating this sampling process many times, the estimate of $` \pi `$ becomes more accurate.
 
-Walk through this 
-[Interactive Notebook](https://observablehq.com/@jajoosam/mathe-carlo/2)
-to know more about classic examples of Monte Carlo.
+> [!Tip]
+> Take a look at this [Interactive Notebook](https://observablehq.com/@jajoosam/mathe-carlo/2) to know more about classic examples of Monte Carlo.
+
 
 #### Monte Carlo Methods for Probabilistic Estimation
 
@@ -373,7 +373,8 @@ This phase is the exact opposite of the peak. The cycle reaches the trough when 
 
 In this project, we refer to the state between peak and trough as the **average** state.
 
-> ### The Trading Game 
+> [!Tip]
+> **The Trading Game:**
 > Similar cycles can be observed in all economic areas! For example, the **Product Life Cycle** follows a similar pattern in microeconomics when introducing a product to the market. Similar behavior can also be found in stock markets. Try to maximize your profits in this [stock market simulation](https://www.bloomberg.com/features/2015-stock-chart-trading-game/)!
 
 ### Markov Chain Graph
