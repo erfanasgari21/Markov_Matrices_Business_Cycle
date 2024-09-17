@@ -4,7 +4,7 @@
 
 *A Project Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)*
 
----
+![cover image](media/cover.jpg)
 
 This project explores the application of Markov Chains to model the dynamics of business cycles, a fundamental topic in macroeconomics. By utilizing matrix operations and eigenvalue decomposition, students will analyze how economic states transition over time and simulate long-term outcomes. 
 
@@ -237,17 +237,23 @@ Given the set of eigenvalues $`\{\lambda_1, \ldots, \lambda_n \}`$ and eigenvect
 #### Eigenpairs for $`A - \mu I`$
 
 Each eigenvector $`v_i`$ satisfies the following equation:
+
 $$
 A v_i = \lambda_i v_i
 $$
+
 Subtracting $`\mu v_i`$ from both sides:
+
 $$
 A v_i - \mu v_i = \lambda_i v_i - \mu v_i
 $$
+
 Factoring gives:
+
 $$
 \left(A - \mu I \right)v_i = \left(\lambda_i - \mu \right)v_i
 $$
+
 Thus, the matrix $`A - \mu I`$ has the same eigenvectors $`\{v_i\} `$, but its eigenvalues are $` \{\lambda_i - \mu\} `$.
 
 #### Eigenpairs for $`A^{-1}`$
@@ -291,7 +297,7 @@ To find all eigenpairs, not just the one closest to a shift value, you can use a
 
 2. **Deflation:**
 
-   After finding an eigenpair, deflate the matrix $ A $ to remove the effect of the found eigenpair and repeat the process on the reduced matrix. This technique involves subtracting the outer product of the found eigenvector from $ A $ and solving the reduced system.
+   After finding an eigenpair, deflate the matrix $A$ to remove the effect of the found eigenpair and repeat the process on the reduced matrix. This technique involves subtracting the outer product of the found eigenvector from $A$ and solving the reduced system.
 
 ```python
 import numpy as np
@@ -327,9 +333,9 @@ The **Monte Carlo Estimation** method is a powerful tool for approximating value
 
 By repeating this sampling process many times, the estimate of $` \pi `$ becomes more accurate.
 
-Walk through this 
-[Interactive Notebook](https://observablehq.com/@jajoosam/mathe-carlo/2)
-to know more about classic examples of Monte Carlo.
+> [!Tip]
+> Take a look at this [Interactive Notebook](https://observablehq.com/@jajoosam/mathe-carlo/2) to know more about classic examples of Monte Carlo.
+
 
 #### Monte Carlo Methods for Probabilistic Estimation
 
@@ -367,7 +373,8 @@ This phase is the exact opposite of the peak. The cycle reaches the trough when 
 
 In this project, we refer to the state between peak and trough as the **average** state.
 
-> ### The Trading Game 
+> [!Tip]
+> **The Trading Game:**
 > Similar cycles can be observed in all economic areas! For example, the **Product Life Cycle** follows a similar pattern in microeconomics when introducing a product to the market. Similar behavior can also be found in stock markets. Try to maximize your profits in this [stock market simulation](https://www.bloomberg.com/features/2015-stock-chart-trading-game/)!
 
 ### Markov Chain Graph
@@ -488,10 +495,10 @@ The steady-state distribution is independent of the initial state distribution. 
 In a Markov chain, as time progresses, the influence of the initial state distribution diminishes. The chain will converge to the steady-state distribution, which is a stationary distribution that satisfies:
 
 $$
-\pi = \pi P
+p = Ap
 $$
 
-where $` \pi `$ is the steady-state distribution and $ P $ is the transition matrix. This equation implies that once the chain reaches the steady-state, the distribution over states does not change with further transitions.
+This equation implies that once the chain reaches the steady-state, the distribution over states does not change with further transitions.
 
 #### Long-Term Behavior
 The steady-state distribution represents the long-term equilibrium of the Markov chain. For any initial state, as the number of transitions increases, the probability of being in each state converges to the steady-state probabilities. This convergence is independent of the initial state because the steady-state distribution is defined by the transition matrix alone.
