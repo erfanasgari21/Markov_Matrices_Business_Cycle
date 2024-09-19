@@ -35,7 +35,7 @@ Rewrite the relation for $p_{t+1}$ in terms of a matrix multiplication.
 
 Assuming the vector $p_0$ represents the population distribution at the initial time and $p_t$ represents the population distribution after $t$ decades, what is the relation of $p_t$ in terms of $p_0$?
 
-> ### Note:
+> [!NOTE]
 > Matrices like the coefficient matrix in this problem, which are square and represent probabilities, are called **Markov Matrices**.
 
 ### 4- Identifying Markov Matrices
@@ -114,7 +114,8 @@ $$
 
 this means that initially, there is a $0.3$ probability of being in state $S_1$ and a $0.7$ probability of being in state $S_2$. This probability distribution changes to $p_1 = A p_t$ in the next moment, representing the probability of being in each state at the next moment.
 
-An optional study of this [interactive booklet](https://setosa.io/ev/markov-chains/) may help in understanding the concept of Markov chains.
+> [!TIP]
+> An optional study of this [interactive booklet](https://setosa.io/ev/markov-chains/) may help in understanding the concept of Markov chains.
 
 ## Introduction to Numerical Methods
 
@@ -164,7 +165,7 @@ Explain the observed behavior in the previous question by decomposing a hypothet
 
 Based on the result from the previous question, suggest a method to find an eigenvector and eigenvalue of a matrix using iterative matrix multiplication. Which eigenvalue and eigenvector does this method find? Write a function that, given a matrix and the number of iterations as input, finds and returns the corresponding eigenvector and eigenvalue using the suggested method. Test your function and compare the results with built-in functions.
 
-> **Note:**
+> [!WARNING]
 > Your function should not suffer from numerical instability for very large or small numbers of iterations or eigenvalues.
 
 ### 9- Effect of Matrix Modifications on Eigenpairs
@@ -183,7 +184,7 @@ In cases where the formulation of a probabilistic problem is complex or some val
 
 In a Markov chain, the steady state distribution is a vector to which the probability distribution vector tends as $`t \to \infty`$. Based on what you learned from the Monte Carlo method, suggest a method to estimate the steady state distribution in a Markov chain using simulation and sampling.
 
-> **Note:**
+> [!WARNING]
 > The proposed method should not use matrix multiplication and should only rely on sampling from probability distributions.
 
 ## Business Cycle
@@ -208,6 +209,7 @@ This phase is the exact opposite of the peak. The cycle reaches the trough when 
 
 In this project, we refer to the state between peak and trough as the **average** state.
 
+> [!TIP]
 > ### The Trading Game 
 > Similar cycles can be observed in all economic areas! For example, the **Product Life Cycle** follows a similar pattern in microeconomics when introducing a product to the market. Similar behavior can also be found in stock markets. Try to maximize your profits in this [stock market simulation](https://www.bloomberg.com/features/2015-stock-chart-trading-game/)!
 
@@ -265,7 +267,7 @@ $$
 
 Using matrix multiplication, calculate the long-term results (over 120 months) for each of these policies. Plot a **3D scatter plot** showing the probability distribution for each policy over time.
 
-> **Note:**  
+> [!WARNING]
 > Make sure the plot includes enough detail, including a title, axis labels, and a legend.
 
 ### 17- Steady-State Distribution
