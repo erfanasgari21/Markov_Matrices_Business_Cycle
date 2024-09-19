@@ -6,6 +6,8 @@
 
 This project explores the application of Markov Chains to model the dynamics of business cycles, a fundamental topic in macroeconomics. By utilizing matrix operations and eigenvalue decomposition, students will analyze how economic states transition over time and simulate long-term outcomes.
 
+![cover image](media/cover.jpg)
+
 ## Introduction to Markov Chains
 
 In a hypothetical country, every decade, $5$ percent of the rural population migrates to cities and $0.1$ percent of city dwellers migrate back to rural areas.
