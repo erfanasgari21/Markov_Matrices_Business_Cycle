@@ -17,7 +17,7 @@ This project explores the application of Markov Chains to model the dynamics of 
 
 #### Links
 - [Project Description (En)](Description-En.md)
-- [Original Description (Fa)](Description-Fa.md)
+- [Original Description (Fa)](Description-Fa.pdf)
 - [Implementation Code (ipynb)](Code.ipynb)
 
 

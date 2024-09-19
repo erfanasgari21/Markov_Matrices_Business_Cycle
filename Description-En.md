@@ -8,6 +8,8 @@ This project explores the application of Markov Chains to model the dynamics of 
 
 ![cover image](media/cover.jpg)
 
+Also Available in [PDF](Description-En.pdf) Format.
+
 ## Introduction to Markov Chains
 
 In a hypothetical country, every decade, $5$ percent of the rural population migrates to cities and $0.1$ percent of city dwellers migrate back to rural areas.
