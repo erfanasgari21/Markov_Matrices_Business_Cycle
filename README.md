@@ -72,7 +72,7 @@ $$
 p_t=A^tp_0 
 $$
 
-> [!Note]
+> [!NOTE]
 > Matrices like the coefficient matrix in this problem, which are square and represent probabilities, are called **Markov Matrices**.
 
 A **Markov matrix** must satisfy two key properties according to probability theory:
@@ -132,7 +132,8 @@ $$
 
 this means that initially, there is a $0.3$ probability of being in state $S_1$ and a $0.7$ probability of being in state $S_2$. This probability distribution changes to $p_1 = A p_t$ in the next moment, representing the probability of being in each state at the next moment.
 
-An optional study of this [interactive booklet](https://setosa.io/ev/markov-chains/) may help in understanding the concept of Markov chains.
+> [!TIP]
+> An optional study of this [interactive booklet](https://setosa.io/ev/markov-chains/) may help in understanding the concept of Markov chains.
 
 ## Introduction to Numerical Methods
 
@@ -334,7 +335,7 @@ The **Monte Carlo Estimation** method is a powerful tool for approximating value
 
 By repeating this sampling process many times, the estimate of $` \pi `$ becomes more accurate.
 
-> [!Tip]
+> [!TIP]
 > Take a look at this [Interactive Notebook](https://observablehq.com/@jajoosam/mathe-carlo/2) to know more about classic examples of Monte Carlo.
 
 
@@ -374,8 +375,8 @@ This phase is the exact opposite of the peak. The cycle reaches the trough when 
 
 In this project, we refer to the state between peak and trough as the **average** state.
 
-> [!Tip]
-> **The Trading Game:**
+> [!TIP]
+> #### The Trading Game
 > Similar cycles can be observed in all economic areas! For example, the **Product Life Cycle** follows a similar pattern in microeconomics when introducing a product to the market. Similar behavior can also be found in stock markets. Try to maximize your profits in this [stock market simulation](https://www.bloomberg.com/features/2015-stock-chart-trading-game/)!
 
 ### Markov Chain Graph
