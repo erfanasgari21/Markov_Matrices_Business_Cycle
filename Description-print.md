@@ -89,13 +89,13 @@ Pr\{S_t=1\} \\
 Pr\{S_t=2\} \\
 \end{pmatrix}
 $$
+
 $$
 A =
 \begin{bmatrix}
 Pr\{S_t=1 | S_{t-1}=1\} & Pr\{S_t=1 | S_{t-1}=2\} \\ 
 Pr\{S_t=2 | S_{t-1}=1\} & Pr\{S_t=2 | S_{t-1}=2\} \\
-\end{bmatrix}
-=
+\end{bmatrix} =
 \begin{bmatrix}
 1-\alpha & \beta \\ 
 \alpha & 1-\beta \\
