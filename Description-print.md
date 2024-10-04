@@ -1,6 +1,6 @@
 # Markov Matrices: Business Cycle
 
-*Linear Algebra (ECE) | Spring 2023 | Dr. Sarafraz | University of Tehran*
+*Linear Algebra (ECE) | Spring 2024 | Dr. Sarafraz | University of Tehran*
 
 *A Project Designed by: [Erfan Asgari](https://github.com/erfanasgari21), [Fardin Abbasi](https://github.com/fardinabbasi)*
 
